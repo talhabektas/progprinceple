@@ -1,4 +1,5 @@
-public class AlphabetPattern extends Pattern {
+//Generates an alphabet pyramid pattern.
+public class AlphabetPattern implements Pattern {
     @Override
     public String generate(int size) {
         StringBuilder sb = new StringBuilder();

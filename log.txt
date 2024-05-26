@@ -1,50 +1,30 @@
-Printing is done for Alphabet-13
-Printer is free
-Printing is done for Alphabet-11
-Printer is free
-Printing is done for Alphabet-12
-Printer is free
-Printing is done for Star-10
-Printer is free
-Printing is done for Star-9
-Printer is free
-Printing is done for Star-8
-Printer is free
-Printing is done for Star-6
-Printer is free
-Printing is done for Alphabet-5
-Printer is free
-Printing is done for Star-4
-Printer is free
-Printing is done for Alphabet-3
-Printer is free
-Printing is done for Star-2
-Printer is free
+Printing is started for Alphabet-1
 Printing is done for Alphabet-1
 Printer is free
-Printing is done for Alphabet-13
+Printing is started for Alphabet-2
+Printing is done for Alphabet-2
 Printer is free
-Printing is done for Alphabet-11
+Printing is started for Alphabet-3
+Printing is done for Alphabet-3
 Printer is free
-Printing is done for Alphabet-12
+Printing is started for Alphabet-4
+Printing is done for Alphabet-4
 Printer is free
-Printing is done for Star-10
+Printing is started for Star-1
+Printing is done for Star-1
 Printer is free
-Printing is done for Star-9
+Printing is started for Star-2
+Printing is done for Star-2
 Printer is free
-Printing is done for Star-8
+Printing is started for Alphabet-5
+Printing is done for Alphabet-5
 Printer is free
+Printing is started for Alphabet-6
+Printing is done for Alphabet-6
+Printer is free
+Printing is started for Alphabet-7
 Printing is done for Alphabet-7
 Printer is free
-Printing is done for Star-6
-Printer is free
-Printing is done for Alphabet-5
-Printer is free
-Printing is done for Star-4
-Printer is free
-Printing is done for Alphabet-3
-Printer is free
-Printing is done for Star-2
-Printer is free
-Printing is done for Alphabet-1
+Printing is started for Star-3
+Printing is done for Star-3
 Printer is free

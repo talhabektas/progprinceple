@@ -1,15 +1,16 @@
-import java.io.*;
+import java.io.IOException;
 import java.nio.file.*;
-import java.util.*;
+import java.util.List;
 
 public class Main {
-    public static void processInputFile(String filename, Printer printer) throws IOException {
+
+    public static void processInputFile(String filename, Printer printer, int inputNumber) throws IOException {
         List<String> lines = Files.readAllLines(Paths.get(filename));
         boolean firstLine = true;
         for (String line : lines) {
             if (firstLine) {
                 firstLine = false;
-                continue;
+                continue; // Skip header line
             }
 
             String[] parts = line.split("\\s+");
@@ -17,22 +18,25 @@ public class Main {
             String patternType = parts[1];
             int outputSize = Integer.parseInt(parts[2]);
 
+            // Simulate the request time
             try {
                 Thread.sleep(requestTime);
             } catch (InterruptedException e) {
-                e.printStackTrace();
+                Thread.currentThread().interrupt();
             }
 
+            // Determine the pattern type and create the appropriate pattern object
             Pattern pattern;
-            if ("Star".equals(patternType)) {
-                pattern = new StarPattern();
-            } else if ("Alphabet".equals(patternType)) {
+            if ("Alphabet".equals(patternType)) {
                 pattern = new AlphabetPattern();
+            } else if ("Star".equals(patternType)) {
+                pattern = new StarPattern();
             } else {
-                System.err.println("Unknown pattern type: " + patternType);
+                System.err.println("Unknown design pattern: " + patternType);
                 continue;
             }
 
+            // Add the request to the printer
             printer.addRequest(pattern, patternType, outputSize);
         }
     }
@@ -41,7 +45,8 @@ public class Main {
         Printer printer = new Printer();
 
         try {
-            processInputFile("input1.txt", printer);
+            processInputFile("input1.txt", printer, 1);
+
         } catch (IOException e) {
             e.printStackTrace();
         }
